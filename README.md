@@ -4,7 +4,7 @@ An [sbt](http://www.scala-sbt.org/) (Simple Build Tool) plugin for generating [G
 
 ## Add Plugin
 
-To add sbt-sublime functionality to your project add the following to your `project/plugins.sbt` file:
+To add sbt-jira-mandate functionality to your project add the following to your `project/plugins.sbt` file:
 
 ```scala
 resolvers += Resolver.url("kinshuk-bintray", url("https://dl.bintray.com/kingster/sbt-plugins"))(Resolver.ivyStylePatterns)
