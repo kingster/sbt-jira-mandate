@@ -29,3 +29,9 @@ seq(JiraIdPlugin.settings: _*)
 
 * sbt 0.13.5+ (requires `AutoPlugin`)
 * Scala 2.10.x
+
+### Committing Changes
+
+```bash
+git commit -m "BRO-XX: <commit message>"
+```
