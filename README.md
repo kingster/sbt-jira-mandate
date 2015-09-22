@@ -33,5 +33,6 @@ seq(JiraIdPlugin.settings: _*)
 ## Committing Changes
 
 ```bash
+git commit -m "BRO-XX <commit message>"
 git commit -m "BRO-XX: <commit message>"
 ```

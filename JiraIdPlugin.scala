@@ -19,7 +19,7 @@ object JiraIdPlugin extends AutoPlugin {
 
 	    	val commitMsgHook =  baseDirectory.value / ".git" / "hooks" / "commit-msg" 
     	 	val contents =
-		    	 	"""test "" != "$(grep -E '(""" + jira.value + """)-\d+:\w*' "$1")" || { """ + scala.compat.Platform.EOL + 
+		    	 	"""test "" != "$(grep -E '(""" + jira.value + """)-\d+( |:)\w*' "$1")" || { """ + scala.compat.Platform.EOL + 
 					s"echo >&2 'ERROR: Commit message is missing Jira Issue Number in Following Format: <project-ticketid:>, eg: ${jira.value}-142:commit message'  " + scala.compat.Platform.EOL +
 					"exit 1  " +  scala.compat.Platform.EOL +
 					"}" + scala.compat.Platform.EOL
