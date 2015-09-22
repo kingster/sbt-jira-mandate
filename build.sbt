@@ -8,7 +8,7 @@ organization := "com.flipkart.jira"
 
 name := "sbt-jira-mandate"
 
-version := "1.0.1-SNAPSORT"
+version := "1.0.1"
 
 description := "Jira Mandate as GIT Commit Hook"
 
