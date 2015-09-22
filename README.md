@@ -9,7 +9,7 @@ To add sbt-sublime functionality to your project add the following to your `proj
 ```scala
 resolvers += Resolver.url("kinshuk-bintray", url("https://dl.bintray.com/kingster/sbt-plugins"))(Resolver.ivyStylePatterns)
 
-addSbtPlugin("com.flipkart.jira" % "sbt-jira-mandate" % "1.0.1")
+addSbtPlugin("com.flipkart.jira" % "sbt-jira-mandate" % "1.0.2")
 ```
 
 If you want to use it for more than one project, you can add it to your global plugins file, usually found at: `~/.sbt/plugins/plugins.sbt` and then have it available for all sbt projects. See [Using Plugins](http://www.scala-sbt.org/release/docs/Getting-Started/Using-Plugins.html) for additional information on sbt plugins.
